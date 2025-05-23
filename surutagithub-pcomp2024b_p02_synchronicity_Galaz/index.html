@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synchronicity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:opsz,wght@8..144,400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+      background-color: #F6F6F6;
+      color: #111;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #F6F6F6;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .header-top .left {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+
+    .header-top .right {
+      font-size: 2rem;
+      font-weight: 800;
+    }
+
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      background-color: #F6F6F6;
+      border-top: 2px solid #ddd;
+      position: sticky;
+      top: 80px;
+      z-index: 100;
+    }
+
+
+    .nav a {
+      display: block;
+      padding: 1rem 2rem;
+      text-align: center;
+      color: #B8171E;
+      text-decoration: none; 
+      font-weight: 500;
+      transition: background 0.3s, color 0.3s;
+      font-family: "Roboto", sans-serif;
+    }
+
+    
+    .nav a:focus,
+    .nav a:hover {
+      background-color: #B8171E;
+      color: #fff;
+      outline: none; 
+    }
+
+ 
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0.5rem;
+      scroll-margin-top: 80px; 
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 2rem 1.5rem;
+      transition: background-color 0.5s, border-left 0.5s;
+      border-left: 6px solid transparent;
+    }
+
+    section:target {
+      background-color: #FFECEC;
+      border-left-color: #B8171E;
+      padding-left: 0.5rem;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: #B8171E;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #700A0F;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-top">
+      <div class="left">UVA</div>
+      <div class="right">Synchronicity</div>
+    </div>
+    <nav class="nav">
+      <a href="#synchronicity">Synchronicity</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#principios">Principios</a>
+      <a href="#obras">Obras</a>
+      <a href="#proceso">Proceso</a>
+    </nav>
+  </header>
+
+  <div class="spacer" style="height:200px;"></div>
+
+  <main>
+    <section id="synchronicity" tabindex="-1">
+      <h2>Synchronicity</h2>
+       <p><strong>Synchronicity es una exhibición de arte inmersiva creada por el colectivo United Visual Artists (UVA), el cual es un estudio con un enfoque interdisciplinar que combina arte, tecnología y diseño para “convertir el espacio en instrumento” mediante luz, sonido y código.</strong>.</p>
+      <p>Synchronicity, en los espacios subterráneos de 180 Studios, aprovechó los túneles, bóvedas y conductos para generar una experiencia inmersiva que juega con la percepción del tiempo y la causalidad. <strong>Se desarrolló entre el 12 de octubre de 2023 y el 17 de marzo de 2024, presentando ocho instalaciones de gran escala que mezclan estética cinética, sonido generativo y visuales dinámicos United Visual Artists.</strong>
+      <strong>El título alude al concepto de “coincidencias significativas”: fenómenos que parecen conectados sin una relación causal directa, un hilo conductor en el que UVA explora la elasticidad del tiempo, las relaciones entre color y frecuencia sonora o la precisión matemática de órbitas y patrones caóticos.</strong><strong>Dentro de sus ocho obras, se encuentra Present Shock II, la cual confronta al público mostrando titulares de noticias en vivo y datos estadísticos en tiempo real, todo mostrado en pantallas LED de alta frecuencia, con el objetivo de crear una sensación de “sobrecarga informativa” que desafía nuestra percepción del tiempo y la realidad.</strong>.</p>
+      
+    </section>
+
+    <section id="equipo" tabindex="-1">
+      <h2>Equipo</h2>
+      <p></p>
+    </section>
+
+    <section id="principios" tabindex="-1">
+      <h2>Principios de Nueva ley de Manovich</h2>
+     <img src="imagenes/principios.jpg">
+
+     </section>
+
+    <section id="obras" tabindex="-1">
+      <h2>Obras</h2>
+      <p></p>
+    </section>
+
+    <section id="proceso" tabindex="-1">
+      <p><strong>Obra: Present Shock II</strong>.</p>
+      <img src="imagenes/diagrama.jpg" width="1900">
+    </section>
+  </main>
+
+</body>
+</html>
+

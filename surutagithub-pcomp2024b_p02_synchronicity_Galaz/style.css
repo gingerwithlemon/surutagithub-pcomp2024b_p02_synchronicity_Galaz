@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #F6F6F6;
+  color: #111;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F6F6F6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem; 
+}
+
+.header-top .left {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.header-top .right {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F6;
+  border-top: 1px solid #ddd;
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+}
+
+.nav a {
+  color: #B8171E;
+  text-decoration: none;
+  padding: 1rem 2rem; 
+  display: block;
+  transition: background 0.3s, color 0.3s;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  font-size: 5rem; 
+  font-weight: 1000;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+.nav a:focus {
+  background-color: #B8171E;
+  color: #fff;
+  outline: none;
+}
+
+.nav a.active {
+  background-color: transparent;
+  color: #B8171E;
+  pointer-events: auto;
+}
+
+.spacer {
+  height: 130px;
+}
+
+main {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem; 
+  scroll-margin-top: 80px;
+}
+
+section {
+  margin-bottom: 2rem; 
+  padding: 0.5rem 1rem; 
+  border-left: 6px solid transparent;
+  transition: background-color 0.5s, border-left-color 0.5s;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
+}
+
+strong {
+  font-weight: 1000;
+}
+
+.bloque-info p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.bloque-info strong {
+  display: inline-block;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+
+
+
