@@ -1,1 +1,2 @@
-# surutagithub-pcomp2024b_p02_synchronicity_Galaz
+# surutagithub-pcomp2024b_p02_synchronicity
+
